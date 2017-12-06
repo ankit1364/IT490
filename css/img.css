@@ -1,0 +1,170 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('http://web.njit.edu/~aps64/it490/flight.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+.title
+{
+	text-transform: uppercase;
+	color: blue;
+	font-weight: 700;
+	font-size: 35px;
+	font-style: italic;
+	font-family: Courier New;
+}
+.subtitle
+{
+	color: green;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: italic;
+	font-family: Courier New;
+}
+
+
+
+td
+{
+background: #ffe6cc;
+font-family: Corier New;
+color:#0033cc;
+font-weight: 600;
+font-size: 18px;
+
+}
+
+th
+{
+background: #ffbf80;
+font-family: Corier New;
+color:red;
+font-weight: 500;
+font-size: 20px;
+}
+
+
+
+.mySubmit{
+  text-align: center;
+}
+
+
+ul.mylist
+{
+	list-style-type: circle;
+}
+
+
+
+
+
+
+
+.jumbotron {
+      background: rgba(255, 255,255, 0.5); 
+}
+.brand,
+.address-bar {
+    display: none;
+}
+.msg
+	{
+	background: black;	
+	font-family: Corier New;
+	color:white;
+	font-weight: 500;
+	font-size: 15px;	
+}
+
+.reg
+	{
+	
+	font-family: Corier New;
+	color:#003366;
+	font-weight: 700;
+	font-size: 20px;	
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.navbar-md {height:30px}
+
+
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        text-align: center;
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 2em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+
+    
+    .navbar-header {
+        display: none;
+    }
+
+    .nav>li>a {
+        padding: 15px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.35em;
+    }
+}
+
